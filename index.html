@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coquilla Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>John Louie Coquilla</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="profile">
+        <div class="container">
+        <img src="main.jpg" alt="Profile Picture">
+        <div class="content-container">
+            <h3>Hi I am</h3>
+            <h1>John Louie Coquilla</h1>
+            <h2>IT Student of BISU Balilihan</h2>
+        </div>
+        </div>
+    </section>
+
+    <section id="about" onclick="location.href='#about';">
+        <div class="about-container">
+        <h2 id="about-heading">About Me</h2>
+        <p>Hello! I'm a dedicated and passionate student specializing in Web Development. I love to solve problems and create innovative solutions.</p>
+        <br>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <br>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing Online Games</li>
+            <li>Travelling</li>
+            <li>Playing Volleyball</li>
+        </ul>
+        <br>
+        <h2>Interest</h2>
+        <ul>
+            <li>I enjoy Playing Online Games and Volleyball. I also love to travel with my friends.</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects" onclick="location.href='#projects';">
+        <div class="project-container">
+        <h2>Projects</h2>
+
+        <div class="project-content">
+        <article>
+            <img src="Form1.png" alt="project img">
+            <h3>Project 1. Simple Java Swing GUI</h3>
+        </article>
+        <article>
+            <img src="Form2.png" alt="">
+            <h3>Project 1. Simple Java Swing GUI</h3>
+        </article>
+        <article>
+            <img src="Ordering1.png" alt="">
+            <h3>Project 2. Simple Ordering Java Program</h3>
+        </article>
+        <article>
+            <img src="Ordering2.png" alt="">
+            <h3>Project 2. Simple Ordering Java Program</h3>
+        </article>
+        </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="contact">
+
+        
+        <h2>Contact Me</h2>
+    <!-- Contact Form -->
+     <div class="contact-container"></div>
+        <form id="contact-form">
+            <label for="name">
+                Name:
+                <i class="fa fa-user"></i>
+            </label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">
+                Email:
+                <i class="fa fa-envelope"></i>
+            </label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="message">
+                Message:
+                <i class="fa fa-comment"></i>
+            </label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+        </div>
+
+        </section>
+
+
+
+        <footer>
+        <!-- Contact Info -->
+    <div class="contact-info">
+        <p>
+            <i class="fa fa-envelope"></i> Email: 
+            <a href="mailto:johnlouiecoquilla0@gmail.com">johnlouiecoquilla0@gmail.com</a>
+        </p>
+        <p>
+            <i class="fa fa-phone"></i> Phone: 
+            <a href="tel:+639512920379">+63951 292 0379</a>
+        </p>
+        <p>
+            <i class="fa fa-facebook"></i> Facebook: 
+            <a href="https://www.facebook.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+        </p>
+        <p>
+            <i class="fa fa-github"></i> GitHub: 
+            <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+        </p>
+    </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
